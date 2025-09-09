@@ -1,0 +1,41 @@
+int age = 20;        // integer
+double price = 99.5; // decimal
+char grade = 'A';    // single character
+String name = "Amit"; // text
+
+for(int i=1; i<=5; i++){
+    System.out.println(i);
+}
+
+int j=1;
+while(j<=5){
+    System.out.println(j);
+    j++;
+}
+
+
+public class Day1 {
+    
+    // function to add two numbers
+    static int add(int a, int b){
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+        int result = add(5, 3);
+        System.out.println("Sum = " + result);
+    }
+}
+
+
+import java.util.Scanner;
+
+public class InputExample {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();   // user se integer input
+        System.out.println("Your age is: " + age);
+    }
+}

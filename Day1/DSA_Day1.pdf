@@ -1,0 +1,49 @@
+ DSA Notes – Day 1 (Basics in Java)
+ 1. What is DSA?
+ DSA = Data Structures + Algorithms
+ Data Structure: Data ko store aur organize karne ka tarika.
+ Algorithm: Problem ko solve karne ka step-by-step method.
+
+
+ 2. Variables
+ Variables ek chhoti memory box jaisi hoti hain jisme data store hota hai. Har variable ka type hota
+ hai:
+ int age = 20;
+ double price = 99.5;
+ char grade = 'A';
+ String name = "Amit";
+
+
+ 3. Loops
+ Loops help karte hain ek hi kaam bar-bar repeat karne me.
+ for(int i=1; i<=5; i++){
+    System.out.println(i);
+ }
+ int j=1;
+ while(j<=5){
+    System.out.println(j);
+    j++;
+ }
+
+
+ 4. Functions (Methods)
+ Function = ek chhota program ke andar program. Ek baar function banao → baar-baar use kar
+ sakte ho.
+ static int add(int a, int b){
+    return a + b;
+ }
+
+
+ 5. Taking Input (Scanner)
+ Java me input lene ke liye Scanner class use hoti hai.
+ import java.util.Scanner;
+ Scanner sc = new Scanner(System.in);
+ int x = sc.nextInt();
+
+
+ 6. Summary
+ 1 Variables se data store karna aaya.
+ 2 Loops se repetition karna aaya.
+ 3 Functions se reusable code likhna seekha.
+ 4 Scanner se input lena aaya.
+
